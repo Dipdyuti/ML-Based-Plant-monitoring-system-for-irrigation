@@ -1,0 +1,140 @@
+
+ML-Based Plant Monitoring System - Project Requirements
+
+1. Hardware Requirements
+-------------------------
+Sensors:
+- Soil Moisture Sensor
+- Temperature Sensor
+- Humidity Sensor
+- pH Sensor
+- Rainfall Sensor
+- Wind Speed Sensor (optional)
+
+Processing Unit:
+- Arduino UNO / ESP32 / NodeMCU
+- Raspberry Pi (optional)
+
+Other Components:
+- Wi-Fi Module (if using Arduino)
+- Jumper Wires
+- Breadboard
+- Power Supply / Battery
+- Water Pump or Relay Module
+- LCD Display (optional)
+
+2. Software Requirements
+-------------------------
+Programming Language:
+- Python 3.10+
+
+IDE / Tools:
+- VS Code
+- Jupyter Notebook (optional)
+
+Database (Optional):
+- MySQL / Firebase / MongoDB
+
+3. Python Libraries
+--------------------
+Install the following libraries:
+
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm catboost
+
+Additional libraries:
+
+pip install flask streamlit joblib
+
+4. Machine Learning Requirements
+--------------------------------
+Algorithms Used:
+- Random Forest
+- XGBoost
+- Decision Tree
+- LightGBM / CatBoost (optional)
+
+Input Features:
+- Soil Moisture
+- Temperature
+- Soil Humidity
+- Air Temperature
+- Wind Speed
+- Air Humidity
+- pH
+- Rainfall
+
+Output:
+- Plant Health Status
+- Irrigation Recommendation
+- Disease Prediction (optional)
+
+5. Dataset Requirements
+------------------------
+Dataset should contain:
+- Sensor values
+- Environmental conditions
+- Target labels/classes
+
+Example:
+| Soil Moisture | Temp | pH | Rainfall | Output |
+|---------------|------|----|-----------|---------|
+| 45            | 28   | 6.5| 120       | Healthy |
+
+6. System Requirements
+-----------------------
+Minimum:
+- RAM: 8 GB
+- Storage: 20 GB free
+- Processor: Intel i5 or equivalent
+
+Recommended:
+- RAM: 16 GB
+- GPU (optional)
+
+7. Frontend / Dashboard (Optional)
+----------------------------------
+You can use:
+- Streamlit
+- Flask
+- HTML/CSS
+- React (advanced)
+
+Dashboard Features:
+- Live sensor readings
+- Prediction results
+- Alerts
+- Graphs
+
+8. Deployment Requirements (Optional)
+-------------------------------------
+- GitHub
+- Render / Railway / Heroku
+- Docker (advanced)
+
+9. Version Requirements
+------------------------
+| Software       | Version |
+|----------------|---------|
+| Python         | 3.10+   |
+| scikit-learn   | 1.4+    |
+| XGBoost        | 2.0+    |
+| Pandas         | 2.0+    |
+| NumPy          | 1.26+   |
+
+10. Functional Requirements
+----------------------------
+- Read sensor data
+- Store data
+- Preprocess data
+- Train ML model
+- Predict plant condition
+- Display results
+- Send alerts/recommendations
+
+11. Non-Functional Requirements
+--------------------------------
+- Accuracy
+- Fast prediction
+- Low power consumption
+- Easy scalability
+- User-friendly interface
